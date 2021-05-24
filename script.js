@@ -120,7 +120,6 @@ let video;
 video = document.querySelectorAll(".video");
 
 window.addEventListener('click', () => {
-    alert('as');
     video.forEach(item => {
         if(item.paused) {
             item.play();
