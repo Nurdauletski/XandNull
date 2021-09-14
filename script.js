@@ -16,23 +16,23 @@ window.addEventListener('DOMContentLoaded', () => {
     
     let characters = [
         {
-            quote: "РўС‹ Р·Р°СЃР»СѓР¶РёР» РјРѕРµ СѓРІР°Р¶РµРЅРёРµ",
+            quote: "Ты станешь королем пиратов",
             name: "Mugivara",
             url: './img/characters/luffy.png'
         },
         {
-            quote: "РџРѕР¶Р°Р»СѓР№, СЏ РЅРµ СЃС‚Р°РЅСѓ С‚РµР±СЏ РїРёСЃР°С‚СЊ РІ С‚РµС‚СЂР°РґСЊ",
+            quote: "Ладно, не буду писать твое имя",
             name: "Kira",
             url: './img/characters/Kira.png'
         },
         {
-            quote: "Р”Р°С‚С‚РµР±Р°Рµ",
+            quote: "Ты станешь хокаге",
             name: "Naruto",
             url: './img/characters/Naruto.png'
         },
         {
-            quote: "Рћ, РїРѕРІРµР·Р»Рѕ, РїРѕРІРµР·Р»Рѕ",
-            name: "РњРµРј",
+            quote: "О, повезло, повезло",
+            name: "Povezlo",
             url: './img/characters/povezlo.png'
         },
         
@@ -80,7 +80,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const char = () => {
         let random = Math.floor(Math.random() * (characters.length - 0) + 0);
         character.style.backgroundImage = 'url('+characters[random].url+')';
-        winner.innerHTML = WhoWin + " РїРѕР±РµРґРёР». " + characters[random].quote;
+        winner.innerHTML = WhoWin + " Красавчик. " + characters[random].quote;
     }
     function check() {
         if((column[0]['1'] == 'x' && column[0]['2'] == 'x' && column[0]['3'] == 'x') || (column[0]['4']  == 'x' && column[0]['5']  == 'x' && column[0]['6'] == 'x') || (column[0]['7'] == 'x' && column[0]['8'] == 'x' && column[0]['9'] == 'x')) {

@@ -78,14 +78,14 @@ body:before {
     
 }
 .cross {
-    background: url(/img/close.png);
+    background: url(./img/close.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 100;
 }
 .null {
-    background: url(/img/exposure-zero_119167.png);
+    background: url(./img/exposure-zero_119167.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
